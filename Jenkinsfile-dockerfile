@@ -2,7 +2,7 @@ pipeline{
     agent {
         dockerfile {
             dir '.'
-            filename 'Dockerfile-agent'
+            filename 'Dockerfile'
             
         }
     }
